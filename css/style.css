@@ -154,6 +154,10 @@ input[type=number]::-webkit-outer-spin-button {
     appearance: none;
 }
 
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
 #step2 .inputName {
 	height: 15px;
 	border: none;
